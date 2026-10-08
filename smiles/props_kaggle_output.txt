@@ -1,0 +1,42 @@
+183 distinct mixtures, rank 38 of 38, max |residual| 4.6e-09
+                name  M_g_mol  rho_g_cm3  M_props  rho_props
+             2-Glyme  134.175      0.937   134.17       0.94
+             2-MeTHF   86.134      0.854    86.13       0.85
+             3-Glyme  178.228      0.986   178.23       0.99
+3-Me-2-Oxazolidinone  101.105      1.170      NaN        NaN
+       3-MeSulfolane  134.200      1.190      NaN        NaN
+             4-Glyme  222.281      1.009   222.28       1.01
+                  AN   41.053      0.786    41.05       0.78
+             Benzene   78.114      0.874      NaN        NaN
+              Cumene  120.195      0.862      NaN        NaN
+                 DEC  118.132      0.975   118.13       0.97
+                 DMC   90.078      1.063    90.08       1.06
+                 DME   90.122      0.864    90.12       0.87
+                 DMF   73.095      0.945    73.09       0.94
+                 DMM  162.229      0.902      NaN        NaN
+                DMSO   78.136      1.096    78.13       1.10
+                 DOL   74.079      1.060    74.08       1.06
+                  EA   88.106      0.894    88.11       0.90
+                  EC   88.062      1.321    88.06       1.32
+                 EMC  104.105      1.006   104.10       1.01
+        Ethylbenzene  106.168      0.866      NaN        NaN
+        Ethyldiglyme  134.175      0.985      NaN        NaN
+      Ethylmonoglyme   76.095      0.965      NaN        NaN
+                 FEC  106.052      1.454   106.05       1.45
+            Freon 11  137.368      1.490      NaN        NaN
+                  MA   74.079      0.928    74.08       0.93
+               MOEMC  134.131      1.070   134.13       1.10
+  Methylene chloride   84.933      1.327    84.93       1.33
+                  PC  102.089      1.200   102.09       1.20
+       Propylsulfone  150.243      1.109      NaN        NaN
+        Pseudocumeme  120.195      0.876      NaN        NaN
+           Sulfolane  120.173      1.261   120.17       1.26
+                TEOS  208.330      0.933      NaN        NaN
+                 TFP  344.066      1.487   344.07       1.59
+                 THF   72.107      0.883    72.11       0.89
+             Toluene   92.141      0.862    92.14       0.87
+     g-Butyrolactone   86.090      1.129    86.09       1.13
+            m-Xylene  106.168      0.860      NaN        NaN
+            o-Xylene  106.168      0.876      NaN        NaN
+
+PROPS density differs by > 0.02 g/cm3: ['MOEMC', 'TFP']

@@ -1,0 +1,39 @@
+name,eps,eps_T_C,eta_cP,eta_T_C,confidence,ref_to_check,note
+2-Glyme,7.23,25,0.99,25,medium,Riddick1986,diglyme; PROPS eps 7.4
+2-MeTHF,6.97,25,0.46,25,medium,Riddick1986;Xu2004,Xu2004 lists eps 6.2
+3-Glyme,7.5,25,1.96,25,medium,Riddick1986,triglyme; reported eta ranges about 1.9-2.2
+4-Glyme,7.79,25,3.39,25,medium,Riddick1986,tetraglyme; reported eta ranges about 3.3-4.1
+3-Me-2-Oxazolidinone,77.5,25,2.45,25,medium,Xu2004,
+3-MeSulfolane,29.4,25,,,low,Marcus1998,eta unknown without a source
+AN,35.94,25,0.341,25,high,CRC;Riddick1986,
+Benzene,2.27,25,0.604,25,high,CRC,
+Cumene,2.38,20,0.74,25,medium,CRC,
+DEC,2.805,25,0.75,25,high,Xu2004,test-set solvent
+DMC,3.107,25,0.59,25,high,Xu2004,
+DME,7.2,25,0.46,25,high,Xu2004,
+DMF,36.7,25,0.80,25,high,CRC;Riddick1986,
+DMM,,,,,none,Dow product data,dipropylene glycol dimethyl ether; no value recalled
+DMSO,46.5,25,1.99,25,high,CRC;Riddick1986,some tables give eps 46.7
+DOL,7.1,25,0.59,25,high,Xu2004,
+EA,6.02,25,0.43,25,high,Xu2004;CRC,Xu2004 lists eta 0.45
+EC,89.78,40,1.90,40,high,Xu2004,solid at 25 C; values at 40 C
+EMC,2.958,25,0.65,25,high,Xu2004,
+Ethylbenzene,2.45,20,0.63,25,medium,CRC,
+Ethyldiglyme,14,25,3.8,25,low,CRC,SMILES is 2-(2-ethoxyethoxy)ethanol (an alcohol)
+Ethylmonoglyme,16.9,25,1.54,25,medium,CRC,SMILES is 2-methoxyethanol (an alcohol)
+FEC,78.4,25,4.1,25,low,Xu2004 or later reviews,eta often quoted at 40 C (about 2.2)
+Freon 11,2.28,29,0.42,25,medium,CRC,boils at 23.8 C
+MA,6.68,25,0.364,25,high,Xu2004;CRC,
+MOEMC,,,,,none,primary paper,no value recalled
+Methylene chloride,8.93,25,0.413,25,high,CRC,
+PC,64.92,25,2.53,25,high,Xu2004,
+Propylsulfone,,,,,none,primary paper,dipropyl sulfone melts near 29 C; no value recalled
+Pseudocumeme,2.38,20,0.89,20,low,CRC,
+Sulfolane,43.3,30,10.3,30,high,Riddick1986;Merck Index,solid at 25 C; Merck Index eta 10.34 cP at 30 C (found by web search)
+TEOS,2.5,20,0.7,20,low,CRC,
+TFP,,,,,none,Ding Xu Jow 2002 J Electrochem Soc (doi 10.1149/1.1513556),no value recalled; likely the TFP source paper
+THF,7.58,25,0.46,25,high,Riddick1986;Xu2004,Xu2004 lists eps 7.4
+Toluene,2.38,25,0.56,25,high,CRC,
+g-Butyrolactone,39.0,25,1.73,25,high,Xu2004,
+m-Xylene,2.37,20,0.58,25,medium,CRC,
+o-Xylene,2.56,20,0.76,25,medium,CRC,

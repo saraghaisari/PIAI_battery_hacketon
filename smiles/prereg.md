@@ -122,3 +122,33 @@ reach significance. Effects are reported as estimates with CIs, not just as held
 
 Pinned in `requirements.txt`: Python 3.13, numpy 2.5.3, pandas 2.3.3, scikit-learn 1.9.1,
 torch 2.14.1, scipy 1.18.1, matplotlib 3.11.2, rdkit 2026.03.6. Gelavizh's code does not run on pandas 3.
+
+## Amendment 1 (before any training script exists; no model has been fitted)
+
+**Reason.** Molar mass and density of every solvent can be recovered from the competition files, so
+these two properties need no external table.
+
+**Changes to set A.**
+- **M:** RDKit molecular weight from `solvent_properties.csv` SMILES. This matches `PROPS` to 0.01 g/mol.
+- **ρ:** recovered from `mixture_density_g_cm3` (`smiles/props_kaggle.py`). According to `metaData.csv`,
+  that column is an ideal additive-volume mix of the pure densities. 183 distinct mixtures determine
+  all 38 pure densities: rank 38, max residual 4.6e-9. Two values differ from `PROPS` by more than
+  0.02 g/cm³: **TFP** (1.487 vs 1.59) and **MOEMC** (1.070 vs 1.10). The recovered values are the ones
+  the dataset's own mole fractions were computed with, so they replace `PROPS`.
+- **ε and η:** a draft for all 38 solvents is in `smiles/solvent_eta_eps_draft.csv`. These values
+  are recalled from standard references (Xu 2004 Chem. Rev. 104:4303; Riddick, Bunger & Sakano 1986;
+  CRC Handbook) and have **not yet been checked against the printed sources**, because this session
+  cannot reach any literature site.
+  - Where both exist, the draft agrees with `PROPS` within 2.5%. This is **not** an independent check:
+    both likely derive from the same commonly quoted values.
+  - There is no value at all for TFP, MOEMC, DMM or Propylsulfone, plus η for 3-MeSulfolane.
+  - FEC, Ethyldiglyme, Pseudocumeme and TEOS are low confidence.
+
+**Freeze rule.** ε and η are frozen only after each value has been checked against a printed or
+primary source and its reference recorded. That happens in a later amendment, before Step 1. Until
+then, `PROPS` ε and η remain the working values. The row-coverage rule is unchanged: a row is used
+only if every solvent in it has ε and η.
+
+**Noted for the paper.** TFP (540 rows, a single source) has no verified ε or η, and its `PROPS`
+density was 7% off. Its dataset source is probably Ding, Xu & Jow 2002 (doi 10.1149/1.1513556),
+which should be checked for measured values.
