@@ -25,3 +25,33 @@ EMC,eta,0.65,cP,25,Xu 2004 Chem. Rev. 104:4303,Table 1 p. 4307 (Organic carbonat
 EMC,eps,2.958,-,25,Xu 2004 Chem. Rev. 104:4303,Table 1 p. 4307 (Organic carbonates and esters),page image read,
 EA,eta,0.45,cP,25,Xu 2004 Chem. Rev. 104:4303,Table 1 p. 4307 (Organic carbonates and esters),page image read,PROPS 0.43
 EA,eps,6.02,-,25,Xu 2004 Chem. Rev. 104:4303,Table 1 p. 4307 (Organic carbonates and esters),page image read,
+Methylene chloride,eps,9.08,-,20,Maryott & Smith 1951 NBS Circular 514,p. 5 (CH2Cl2; listed as Dichloromethane),page image read,footnote fit eps = 3320/T - 2.24 gives 8.90 at 25 C
+AN,eps,37.5,-,20,Maryott & Smith 1951 NBS Circular 514,p. 7 (C2H3N),page image read,
+MA,eps,6.68,-,25,Maryott & Smith 1951 NBS Circular 514,p. 10 (C3H6O2),page image read,
+Ethylmonoglyme,eps,16.0,-,30,Maryott & Smith 1951 NBS Circular 514,p. 11 (C3H8O2; 2-Methoxyethanol),page image read,dataset SMILES COCCO is 2-methoxyethanol
+Benzene,eps,2.284,-,20,Maryott & Smith 1951 NBS Circular 514,p. 18 (C6H6),page image read,
+Toluene,eps,2.379,-,25,Maryott & Smith 1951 NBS Circular 514,p. 23 (C7H8),page image read,
+Ethylbenzene,eps,2.412,-,20,Maryott & Smith 1951 NBS Circular 514,p. 27 (C8H10),page image read,
+o-Xylene,eps,2.568,-,20,Maryott & Smith 1951 NBS Circular 514,p. 27 (C8H10),page image read,
+m-Xylene,eps,2.374,-,20,Maryott & Smith 1951 NBS Circular 514,p. 27 (C8H10),page image read,
+TEOS,eps,4.1,-,20,Maryott & Smith 1951 NBS Circular 514,p. 31 (C8H20O4Si; Tetraethyl silicate),page image read,ca 20 C at 3.6e8 Hz; earlier draft had 2.5
+Cumene,eps,2.38,-,20,Maryott & Smith 1951 NBS Circular 514,p. 31 (C9H12; Isopropylbenzene),page image read,
+Pseudocumeme,eps,2.42,-,17,Maryott & Smith 1951 NBS Circular 514,p. 32 (C9H12; 1;2;4-Trimethylbenzene),page image read,
+Ethyldiglyme,eta,3.85,cP,25,PubChem (HSDB record),CID 8146,PubChem record,dataset SMILES CCOCCOCCO is 2-(2-ethoxyethoxy)ethanol
+DMF,eta,0.802,cP,25,PubChem (HSDB record),CID 6228,PubChem record,
+Benzene,eta,0.604,cP,25,PubChem (HSDB record),CID 241,PubChem record,
+Cumene,eta,0.737,cP,25,PubChem (HSDB record),CID 7406,PubChem record,
+Ethylbenzene,eta,0.64,cP,25,PubChem (HSDB record),CID 7500,PubChem record,
+Toluene,eta,0.56,cP,25,PubChem (HSDB record),CID 1140,PubChem record,
+m-Xylene,eta,0.581,cP,25,PubChem (HSDB record),CID 7929,PubChem record,
+o-Xylene,eta,0.76,cP,25,PubChem (HSDB record),CID 7237,PubChem record,
+MA,eta,0.364,cP,25,PubChem (HSDB record),CID 6584,PubChem record,
+2-Glyme,eta,1.089,cP,20,PubChem (HSDB record),CID 8150,PubChem record,
+Freon 11,eta,0.43,cP,20,PubChem (HSDB record),CID 6389,PubChem record,liquid
+Methylene chloride,eta,0.437,cP,20,PubChem (HSDB record),CID 6344,PubChem record,
+AN,eta,0.35,cP,20,PubChem (HSDB record),CID 6342,PubChem record,
+TEOS,eta,0.6,cP,25,PubChem (HSDB record),CID 6517,PubChem record,
+Sulfolane,eta,10.34,cP,30,PubChem (HSDB record),CID 31347,PubChem record,same value as Merck Index
+DMC,eta,0.664,cP,20,PubChem (HSDB record),CID 12021,PubChem record,second source; Xu 2004 gives 0.59 at 20 C
+EA,eta,0.423,cP,25,PubChem (HSDB record),CID 8857,PubChem record,second source; Xu 2004 gives 0.45
+g-Butyrolactone,eta,1.75,cP,25,PubChem (HSDB record),CID 7302,PubChem record,second source; Xu 2004 gives 1.73
