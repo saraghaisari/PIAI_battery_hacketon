@@ -152,3 +152,8 @@ only if every solvent in it has ε and η.
 **Noted for the paper.** TFP (540 rows, a single source) has no verified ε or η, and its `PROPS`
 density was 7% off. Its dataset source is probably Ding, Xu & Jow 2002 (doi 10.1149/1.1513556),
 which should be checked for measured values.
+
+**Note (literature check in progress, no model fitted).** Verified values are collected in
+`smiles/solvent_eta_eps_lit.csv`, one row per value with its source and table. Xu 2004's "DMM" is
+dimethoxymethane (M 76), not this dataset's DMM (dipropylene glycol dimethyl ether, M 162), so it
+must not be used for DMM.

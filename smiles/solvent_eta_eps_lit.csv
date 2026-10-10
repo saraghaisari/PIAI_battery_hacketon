@@ -1,0 +1,11 @@
+name,property,value,unit,T_C,source,locator,checked_by,note
+DME,eta,0.46,cP,25,Xu 2004 Chem. Rev. 104:4303,Table 2 (Organic ethers),page image read,
+DME,eps,7.2,-,25,Xu 2004 Chem. Rev. 104:4303,Table 2 (Organic ethers),page image read,
+THF,eta,0.46,cP,25,Xu 2004 Chem. Rev. 104:4303,Table 2 (Organic ethers),page image read,
+THF,eps,7.4,-,25,Xu 2004 Chem. Rev. 104:4303,Table 2 (Organic ethers),page image read,
+2-MeTHF,eta,0.47,cP,25,Xu 2004 Chem. Rev. 104:4303,Table 2 (Organic ethers),page image read,PROPS 0.46
+2-MeTHF,eps,6.2,-,25,Xu 2004 Chem. Rev. 104:4303,Table 2 (Organic ethers),page image read,PROPS 6.97 (11% higher)
+DOL,eta,0.59,cP,25,Xu 2004 Chem. Rev. 104:4303,Table 2 (Organic ethers; listed as 1;3-DL),page image read,
+DOL,eps,7.1,-,25,Xu 2004 Chem. Rev. 104:4303,Table 2 (Organic ethers; listed as 1;3-DL),page image read,
+TFP,eps,10.25,-,25,Ding Xu Jow 2002 J. Electrochem. Soc. 149:A1489 (doi 10.1149/1.1513556),fit eps = 11.6152 - 0.0613571*theta + 0.000273457*theta^2 evaluated at 25 C; text gives 10.5 at 20 C,PDF text read,PROPS 11.0; viscosity not measured in this paper
+DEC,eps,2.82,-,20,Maryott & Smith 1951 NBS Circular 514,p. 16 (C5H10O3),page image read,
