@@ -55,3 +55,4 @@ Sulfolane,eta,10.34,cP,30,PubChem (HSDB record),CID 31347,PubChem record,same va
 DMC,eta,0.664,cP,20,PubChem (HSDB record),CID 12021,PubChem record,second source; Xu 2004 gives 0.59 at 20 C
 EA,eta,0.423,cP,25,PubChem (HSDB record),CID 8857,PubChem record,second source; Xu 2004 gives 0.45
 g-Butyrolactone,eta,1.75,cP,25,PubChem (HSDB record),CID 7302,PubChem record,second source; Xu 2004 gives 1.73
+TFP,eps,10.5,-,20,Xu 2004 Chem. Rev. 104:4303,Table 14 p. 4402 (Flame-retarding additives; alkyl phosphates row R1-3=CF3),page image read,second source; agrees with Ding 2002 (10.5 at 20 C); Table 14 has no viscosity column
