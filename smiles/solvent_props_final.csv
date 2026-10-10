@@ -1,0 +1,39 @@
+name,M_g_mol,rho_g_cm3,eps,eps_T_C,eps_source,eps_status,eps_props,eta,eta_T_C,eta_source,eta_status,eta_props
+2-Glyme,134.175,0.937,7.4,25.0,pipeline.py PROPS (Gelavizh),props_unverified,7.4,1.089,20.0,PubChem (HSDB record); CID 8150,verified,0.99
+2-MeTHF,86.134,0.854,6.2,25.0,Xu 2004 Chem. Rev. 104:4303; Table 2 p. 4308 (Organic ethers),verified,6.97,0.47,25.0,Xu 2004 Chem. Rev. 104:4303; Table 2 p. 4308 (Organic ethers),verified,0.46
+3-Glyme,178.228,0.986,7.5,25.0,pipeline.py PROPS (Gelavizh),props_unverified,7.5,1.96,25.0,pipeline.py PROPS (Gelavizh),props_unverified,1.96
+3-Me-2-Oxazolidinone,101.105,1.17,78.0,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters; NMO),verified,,2.5,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters; NMO),verified,
+3-MeSulfolane,134.2,1.19,,,,missing,,,,,missing,
+4-Glyme,222.281,1.009,7.8,25.0,pipeline.py PROPS (Gelavizh),props_unverified,7.8,3.39,25.0,pipeline.py PROPS (Gelavizh),props_unverified,3.39
+AN,41.053,0.7857,37.5,20.0,Maryott & Smith 1951 NBS Circular 514; p. 7 (C2H3N),verified,35.9,0.35,20.0,PubChem (HSDB record); CID 6342,verified,0.34
+Benzene,78.114,0.8737,2.284,20.0,Maryott & Smith 1951 NBS Circular 514; p. 18 (C6H6),verified,,0.604,25.0,PubChem (HSDB record); CID 241,verified,
+Cumene,120.195,0.8618,2.38,20.0,Maryott & Smith 1951 NBS Circular 514; p. 31 (C9H12; Isopropylbenzene),verified,,0.737,25.0,PubChem (HSDB record); CID 7406,verified,
+DEC,118.132,0.975,2.805,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters),verified,2.81,0.75,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters),verified,0.75
+DMC,90.078,1.063,3.107,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters),verified,3.11,0.59,20.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters),verified,0.59
+DME,90.122,0.8637,7.2,25.0,Xu 2004 Chem. Rev. 104:4303; Table 2 p. 4308 (Organic ethers),verified,7.2,0.46,25.0,Xu 2004 Chem. Rev. 104:4303; Table 2 p. 4308 (Organic ethers),verified,0.46
+DMF,73.095,0.9445,36.7,25.0,pipeline.py PROPS (Gelavizh),props_unverified,36.7,0.802,25.0,PubChem (HSDB record); CID 6228,verified,0.8
+DMM,162.229,0.902,,,,missing,,,,,missing,
+DMSO,78.136,1.0958,46.5,25.0,pipeline.py PROPS (Gelavizh),props_unverified,46.5,1.99,25.0,pipeline.py PROPS (Gelavizh),props_unverified,1.99
+DOL,74.079,1.06,7.1,25.0,Xu 2004 Chem. Rev. 104:4303; Table 2 p. 4308 (Organic ethers; listed as 1;3-DL),verified,7.1,0.59,25.0,Xu 2004 Chem. Rev. 104:4303; Table 2 p. 4308 (Organic ethers; listed as 1;3-DL),verified,0.59
+EA,88.106,0.894,6.02,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters),verified,6.0,0.45,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters),verified,0.43
+EC,88.062,1.321,89.78,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters),verified,89.8,1.9,40.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters),verified,1.9
+EMC,104.105,1.006,2.958,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters),verified,2.96,0.65,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters),verified,0.65
+Ethylbenzene,106.168,0.8665,2.412,20.0,Maryott & Smith 1951 NBS Circular 514; p. 27 (C8H10),verified,,0.64,25.0,PubChem (HSDB record); CID 7500,verified,
+Ethyldiglyme,134.175,0.9855,,,,missing,,3.85,25.0,PubChem (HSDB record); CID 8146,verified,
+Ethylmonoglyme,76.095,0.9646,16.0,30.0,Maryott & Smith 1951 NBS Circular 514; p. 11 (C3H8O2; 2-Methoxyethanol),verified,,,,,missing,
+FEC,106.052,1.454,78.4,25.0,pipeline.py PROPS (Gelavizh),props_unverified,78.4,4.1,25.0,pipeline.py PROPS (Gelavizh),props_unverified,4.1
+Freon 11,137.368,1.49,,,,missing,,0.43,20.0,PubChem (HSDB record); CID 6389,verified,
+MA,74.079,0.9279,6.68,25.0,Maryott & Smith 1951 NBS Circular 514; p. 10 (C3H6O2),verified,6.68,0.364,25.0,PubChem (HSDB record); CID 6584,verified,0.36
+MOEMC,134.131,1.07,9.0,25.0,pipeline.py PROPS (Gelavizh),props_unverified,9.0,1.5,25.0,pipeline.py PROPS (Gelavizh),props_unverified,1.5
+Methylene chloride,84.933,1.3266,9.08,20.0,Maryott & Smith 1951 NBS Circular 514; p. 5 (CH2Cl2; listed as Dichloromethane),verified,8.93,0.437,20.0,PubChem (HSDB record); CID 6344,verified,0.41
+PC,102.089,1.2,64.92,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters),verified,64.9,2.53,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters),verified,2.53
+Propylsulfone,150.243,1.109,,,,missing,,,,,missing,
+Pseudocumeme,120.195,0.8758,2.42,17.0,Maryott & Smith 1951 NBS Circular 514; p. 32 (C9H12; 1;2;4-Trimethylbenzene),verified,,,,,missing,
+Sulfolane,120.173,1.261,43.3,25.0,pipeline.py PROPS (Gelavizh),props_unverified,43.3,10.34,30.0,PubChem (HSDB record); CID 31347,verified,10.3
+TEOS,208.33,0.933,4.1,20.0,Maryott & Smith 1951 NBS Circular 514; p. 31 (C8H20O4Si; Tetraethyl silicate),verified,,0.6,25.0,PubChem (HSDB record); CID 6517,verified,
+TFP,344.066,1.487,10.25,25.0,Ding Xu Jow 2002 J. Electrochem. Soc. 149:A1489 (doi 10.1149/1.1513556); fit eps = 11.6152 - 0.0613571*theta + 0.000273457*theta^2 evaluated at 25 C; text gives 10.5 at 20 C,verified,11.0,2.5,25.0,pipeline.py PROPS (Gelavizh),props_unverified,2.5
+THF,72.107,0.8833,7.4,25.0,Xu 2004 Chem. Rev. 104:4303; Table 2 p. 4308 (Organic ethers),verified,7.4,0.46,25.0,Xu 2004 Chem. Rev. 104:4303; Table 2 p. 4308 (Organic ethers),verified,0.46
+Toluene,92.141,0.8623,2.379,25.0,Maryott & Smith 1951 NBS Circular 514; p. 23 (C7H8),verified,2.38,0.56,25.0,PubChem (HSDB record); CID 1140,verified,0.56
+g-Butyrolactone,86.09,1.1286,39.0,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters; gammaBL),verified,39.0,1.73,25.0,Xu 2004 Chem. Rev. 104:4303; Table 1 p. 4307 (Organic carbonates and esters; gammaBL),verified,1.73
+m-Xylene,106.168,0.8598,2.374,20.0,Maryott & Smith 1951 NBS Circular 514; p. 27 (C8H10),verified,,0.581,25.0,PubChem (HSDB record); CID 7929,verified,
+o-Xylene,106.168,0.8759,2.568,20.0,Maryott & Smith 1951 NBS Circular 514; p. 27 (C8H10),verified,,0.76,25.0,PubChem (HSDB record); CID 7237,verified,

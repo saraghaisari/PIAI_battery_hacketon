@@ -157,3 +157,21 @@ which should be checked for measured values.
 `smiles/solvent_eta_eps_lit.csv`, one row per value with its source and table. Xu 2004's "DMM" is
 dimethoxymethane (M 76), not this dataset's DMM (dipropylene glycol dimethyl ether, M 162), so it
 must not be used for DMM.
+
+## Amendment 2 (before any training script exists; no model has been fitted)
+
+**Set A ε and η are frozen** in `smiles/solvent_props_final.csv`, built by `smiles/build_props.py`:
+- A cited literature value (`smiles/solvent_eta_eps_lit.csv`) where one exists, taking the value
+  measured closest to 25 °C, ties broken by source: Xu 2004 > Ding 2002 > NBS 514 > PubChem/HSDB.
+- Otherwise Gelavizh's `PROPS` value, flagged `props_unverified`: TFP η, Sulfolane ε, 2-Glyme ε,
+  3-Glyme, 4-Glyme, DMSO, FEC, MOEMC, DMF ε. These are listed in `smiles/CROSSCHECK_GELAVIZH.md`
+  and must be confirmed with her before the paper is written.
+- Solvents with neither are excluded from every set: 3-MeSulfolane, DMM, Propylsulfone, Ethyldiglyme,
+  Ethylmonoglyme, Freon 11, Pseudocumene. This leaves 31 solvents and 6619 / 6759 train rows, and all
+  5959 test rows.
+
+Values are taken at the temperatures their sources report (20–40 °C), not corrected to 25 °C. EC is
+at 40 °C (solid at 25 °C) and Sulfolane η at 30 °C (solid at 25 °C).
+
+**Effect on the design.** All 13 primary folds remain. Subset U is unchanged. If a cross-check later
+changes a value, the affected results are rerun and reported as post-hoc alongside the originals.

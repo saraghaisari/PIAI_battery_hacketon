@@ -1,0 +1,43 @@
+                name    eps       eps_status    eta       eta_status
+             2-Glyme  7.400 props_unverified  1.089         verified
+             2-MeTHF  6.200         verified  0.470         verified
+             3-Glyme  7.500 props_unverified  1.960 props_unverified
+3-Me-2-Oxazolidinone 78.000         verified  2.500         verified
+       3-MeSulfolane    NaN          missing    NaN          missing
+             4-Glyme  7.800 props_unverified  3.390 props_unverified
+                  AN 37.500         verified  0.350         verified
+             Benzene  2.284         verified  0.604         verified
+              Cumene  2.380         verified  0.737         verified
+                 DEC  2.805         verified  0.750         verified
+                 DMC  3.107         verified  0.590         verified
+                 DME  7.200         verified  0.460         verified
+                 DMF 36.700 props_unverified  0.802         verified
+                 DMM    NaN          missing    NaN          missing
+                DMSO 46.500 props_unverified  1.990 props_unverified
+                 DOL  7.100         verified  0.590         verified
+                  EA  6.020         verified  0.450         verified
+                  EC 89.780         verified  1.900         verified
+                 EMC  2.958         verified  0.650         verified
+        Ethylbenzene  2.412         verified  0.640         verified
+        Ethyldiglyme    NaN          missing  3.850         verified
+      Ethylmonoglyme 16.000         verified    NaN          missing
+                 FEC 78.400 props_unverified  4.100 props_unverified
+            Freon 11    NaN          missing  0.430         verified
+                  MA  6.680         verified  0.364         verified
+               MOEMC  9.000 props_unverified  1.500 props_unverified
+  Methylene chloride  9.080         verified  0.437         verified
+                  PC 64.920         verified  2.530         verified
+       Propylsulfone    NaN          missing    NaN          missing
+        Pseudocumeme  2.420         verified    NaN          missing
+           Sulfolane 43.300 props_unverified 10.340         verified
+                TEOS  4.100         verified  0.600         verified
+                 TFP 10.250         verified  2.500 props_unverified
+                 THF  7.400         verified  0.460         verified
+             Toluene  2.379         verified  0.560         verified
+     g-Butyrolactone 39.000         verified  1.730         verified
+            m-Xylene  2.374         verified  0.581         verified
+            o-Xylene  2.568         verified  0.760         verified
+
+usable solvents 31 / 38; train rows covered 6619 / 6759
+eps: verified vs PROPS differ by > 3%: {'2-MeTHF': 6.2, 'AN': 37.5, 'TFP': 10.25}
+eta: verified vs PROPS differ by > 3%: {'2-Glyme': 1.089, 'EA': 0.45, 'Methylene chloride': 0.437}
